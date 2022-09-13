@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <title>Mario</title>
+
+</head>
+
+<body>
+  <div class="mario-image">
+    <img src="./Images/mario-background.png" alt="Mario Background">
+    <div class="obstacle"></div>
+    <div class="timer-wrapper">
+      <p>Your Game Ends In:
+        <span class="timer"> 00 : 00</span>
+      </p>
+      <p>As of : <span class="date-time"></span></p>
+    </div>
+    <div class="mario">
+      <img id="mario" class="mario-icon" src="./Images/mario.gif" width="130px" alt="Mario">
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+  <div class="Modal">
+    <button class="btn startBtn">Start Game</button>
+    <button class="btn quitBtn">Quit Game</button>
+  </div>
+
+  <script src="script/main.js"></script>
+</body>
+
+</html>
